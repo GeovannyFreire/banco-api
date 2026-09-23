@@ -15,7 +15,7 @@ desenvolvida como desafio técnico para a vaga de estágio Back-End na Pacto Mai
 ---
 
 ## ▶️ Como rodar o projeto localmente
-
+> Requer JDK 21 ou superior instalado na máquina.
 1. Clone o repositório:
 ```bash
    git clone https://github.com/GeovannyFreire/banco-api.git
@@ -126,3 +126,5 @@ Content-Type: application/json
 Comecei a estudar Java e Spring Boot muito recentemente, motivado pela necessidade de usar essas tecnologias na Fábrica de Software da minha faculdade, onde desenvolvo um projeto fullstack.
 Para este desafio, usei IA como ferramenta de apoio para entender conceitos que eu ainda não conhecia (JPA, herança com Spring Data, `@Transactional`, entre outros), mas priorizei compreender e ser capaz de explicar cada decisão tomada, em vez de apenas copiar código pronto.
 Tenho consciência de que ainda tenho muito a evoluir e me comprometo a aprofundar esse conhecimento continuamente.
+
+> **Nota sobre a versão do Java:** o desafio especifica Java 8. Desenvolvi o projeto em Java 17 com Spring Boot 4.1.1 — a versão mais recente do framework no momento, que já traz uma reformulação de nomes de dependências (ex: `spring-boot-starter-web` virou `spring-boot-starter-webmvc`). Estou ciente de que o Spring Boot 4 tem como base recomendada o Java 21, e disponível para ajustar a versão ou discutir essa escolha na conversa técnica.
